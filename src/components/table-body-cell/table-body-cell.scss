@@ -1,0 +1,26 @@
+.table-cell {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  border: 1px solid #020202;
+  background-color: #a9c9c1;
+}
+
+.sticky-body-cell {
+  position: sticky;
+  left: 0;
+  height: 25px;
+  width: 150px;
+}
+
+.selected-cell {
+  background-color: rgb(163, 230, 174);
+}
+
+.delete-button {
+  height: 20px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
